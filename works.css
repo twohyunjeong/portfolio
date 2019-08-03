@@ -1,0 +1,24 @@
+#intro{
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.work{
+  font-size: 30px;
+  text-align: center;
+  padding-top: 300px;
+  color: black;
+  font-family: 'Assistant', sans-serif;
+}
+
+
+.work a:hover{
+  background-color: aliceblue;
+}
+
+.btn a:hover{
+  background-color: white;
+}

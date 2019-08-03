@@ -1,0 +1,22 @@
+#intro{
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mail{
+  font-size: 30px;
+  text-align: center;
+  padding-top: 250px;
+  color: black;
+  font-family: 'Lacquer', sans-serif;
+}
+
+.insta{
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  font-family: 'Lacquer', sans-serif;
+}
