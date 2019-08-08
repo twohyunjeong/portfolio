@@ -6,8 +6,8 @@ left: 50%;
 transform: translate(-50%, -50%);
 }
 .navbar-nav{
-  padding-left: 8%;
+  padding-left: 5%;
 }
 h1{
-  font-family: 'Lacquer', sans-serif;
+  font-family: 'Libre Barcode 39 Text', cursive;
 }
