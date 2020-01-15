@@ -10,6 +10,14 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="twohyunjeong.css">
     <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text&display=swap" rel="stylesheet">
+    <style>
+      body {
+        background-image: url('pics/original.png');
+        background-repeat: no-repeat;
+        background-size:auto;
+        background-position: center;
+      }
+    </style>
   </head>
   <body>
     <header id="intro">
@@ -22,8 +30,24 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
         <a class="nav-item nav-link" href="twohyunjeong.html">Home</a>
-        <a class="nav-item nav-link" href="works.html">Works</a>
-        <a class="nav-item nav-link" href="connect.html">Connect</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Works
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="video.html">Video</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Drawings
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="liquidflow.html">Liquid Flow</a>
+              <a class="dropdown-item" href="digitaldrawing.html">Digital Drawing</a>
+              <a class="dropdown-item" href="drawing.html">꼬물꼬물</a>
+            </div>
+          </li>
         </div>
         </div>
         </nav>
